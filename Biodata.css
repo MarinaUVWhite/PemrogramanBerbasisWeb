@@ -1,0 +1,90 @@
+body
+{
+    background-color: rgb(228, 227, 227);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: thin;
+}
+.row {
+    display: inline-flex;
+    flex-direction: row;
+}
+.container
+{
+    margin: 1%;
+    
+}
+  .column {
+    margin-left: 1%;
+}
+.column-lg
+{
+    width: 1000px;
+}
+  .bordered
+  {
+    border-style: solid none none;
+    border-color: rgb(255, 0, 0);
+  }
+  .foto
+{
+    width: 150px;
+    height: 200px;
+    border-style: solid;
+    border-color: white;
+}
+table
+{
+    width: 100%;
+}
+table, th, td {
+    
+    border-spacing: 0;
+    border-bottom: 1px solid rgb(57, 57, 57);
+    border-collapse: collapse;
+    text-align: left;
+  }
+  th
+  {
+    width: 300px;
+  }
+  th, td
+  {
+    height: 30px;
+  }
+
+  .py
+  {
+    padding-top: 10px
+  }
+  .box
+  {
+    width: 60%;
+    margin-left: 20%;
+    border: 1px solid rgb(144, 144, 144);
+    background-color: white;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  
+  #biodata {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #biodata td, #biodata th {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 8px;
+  }
+  
+  #biodata tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #biodata tr:hover {background-color: #ddd;}
+  
+  #biodata th {
+    text-align: left;
+    background-color: #134331;
+    color: white;
+  }
